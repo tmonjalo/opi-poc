@@ -7,15 +7,14 @@
 
 ## Backup
 
-- All critical servers backed up
-- Restore of critical servers must be done within a couple of hours
-- Team in place trained to do backup/restore
+- All critical servers must be backed up.
+- Restoration of critical servers must be done within a couple of hours.
+- Hosting provider must be trained to do backup/restore.
 
 ## Capacity
 
-- Sufficient capacity so wait queue is zero to accommodate all CI workloads
-  - processing resources need to be proportional to rate of GitHub PR arrivals x average time to do builds+tests
-- Sufficient excess capacity so as new users request lab capacity they can be reasonably accomodated without waiting
+- Wait queue for automatic tests should be less than 1 hour.
+- Sufficient excess capacity so that manual workloads does not affect automatic tests too much.
 - System must support firmware updates.
 
 ## Process
@@ -43,5 +42,5 @@
 
 ## SLA
 
-- SSH access at 99.99% availability
-- Lab tech accessible 24/7
+- SSH access at 99% availability.
+- Automatic tests running at 95% availability (includes maintenance downtime).
