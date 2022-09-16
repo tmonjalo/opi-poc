@@ -22,6 +22,11 @@
 - End users given 2 weeks notice for major lab works
 - End users given 1 week notice for regular lab maintenance works
 - End users notified as soon as it is known immediate emergency lab work need to be done
+- Hosting provider must be notified 2 days in advance of a change on a machine
+  in order to avoid false negative results due to an upgrade in process.
+- Any environment change (firmware, OS update or new software)
+  and test changes (new or updated use case)
+  must be validated first before being used in automatic tests.
 - Lab inventory management system in place
 - Lab tech updates inventory as needed
 - Lab manager assigned
