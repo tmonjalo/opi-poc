@@ -2,6 +2,10 @@
 
 ## Access
 
+- Lab staff can access to all machines.
+- OPI members should access only to their own machines.
+- Remote access to a machine requires private VPN specific to the machine.
+- OPI members cannot access to a machine from another one.
 - SSH connection is available through VPN.
 - Emergency console can be enabled for remote access in case of issue.
 
@@ -40,8 +44,6 @@
 ## Documentation
 
 - Wiki showing servers, assigned owners, emergency console and SSH access info
-- Documentation in place for browsing, requesting, and releasing lab resources
-  - e.g. how to request for new physical servers with power cycler
 - Documentation in place for lab resources and interconnection
   - example: <https://opendcim.org/screenshots.html>
 
