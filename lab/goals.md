@@ -10,12 +10,25 @@ to validate compatibility and to avoid regressions.
 The OPI lab should be used for:
 
 - automatic testing
+  - Phase 1:
+    - Functional validation and regression
+       - scheduled functional validation
+       - patch validation (CI)
+    - Conformance
+  - Phase 2: 
+    - Interoperability
+      - Reserve IPU/DPUs from multiple vendors to run the test
+      - Test portability, compatibility
 
-  - scheduled functional validation
-  - patch validation (CI)
+ - manual
+   - Drive adoption  
+     - Demos, Conferences - OPI Lab preferred
+     - Learning, Training - Vendor Lab preferred
+     - Development lab for SW vendors
 
-The data generated in the lab shall not be used
+The performance data generated in the lab shall not be used
 for competitive marketing purposes.
+Conformance data or certifications from OPI labs can be used for marketing purposes.
 
 ## Properties
 
